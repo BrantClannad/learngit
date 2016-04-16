@@ -9,5 +9,6 @@ int main(){
    hanoi(n,'A','B','C');
    return 0;
 }
+
 void move(char x,char y){
         printf("%c->%c\t",x,y);}
