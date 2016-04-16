@@ -1,0 +1,11 @@
+#include<stdio.h>
+void hanoi(int n,char one,char two,char three);
+void move(char x,char y);
+int main(){
+	int n;
+	printf("Please input the number of disks:");
+	scanf("%d",&n);
+	printf("The steps of moving disks:\n");
+   hanoi(n,'A','B','C');
+   return 0;
+}
